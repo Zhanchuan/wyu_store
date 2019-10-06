@@ -1,0 +1,20 @@
+<!--pages/profile/profile.wxml-->
+<view class='profile'>
+  <view class='header'>
+  <view class='avatar'>
+    <image src="{{userInfo.avatarUrl}}"/>
+  </view>
+  <!-- <open-data type="userAvatarUrl"></open-data> -->
+  <view class='login-info'>
+    <button type="primary" wx:if="{{!canIUse}}" open-type="getUserInfo" bindgetuserinfo="onGotUserInfo" size="mini">授权登录</button>
+        <view wx:else="">
+            <view class="uname">{{userInfo.nickName}}</view>
+            <view class="ucity">城市：{{userInfo.city}}</view>
+            <view class="ucountry">地区：{{userInfo.country}}</view>
+        </view>
+  </view>
+</view>
+  <w-info/>
+  <w-list-view infos="{{orderList}}"/>
+  <w-list-view infos="{{serviceList}}"/>
+</view>

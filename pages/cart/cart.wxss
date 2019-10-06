@@ -1,0 +1,38 @@
+/* pages/cart/cart.wxss */
+.cart {
+  height: 100%;
+}
+
+.cart-list {
+  height: calc(100% - 88rpx);
+}
+
+.tit-text{
+  font-size:30rpx;
+  display: inline-block;
+  vertical-align: middle;
+
+}
+.tit-tool{
+  position: relative;
+  vertical-align: middle;
+    color:#CF417A;
+    background: #DDDDDD;
+    font-size: 50rpx;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.null{
+  width:100%;
+  height: 150rpx;
+  background: #EEEEEE;
+   margin-top: 20rpx;
+  position: relative;
+  left: 0;
+  border-radius: 10px;
+ display: flex;
+  align-items: center;
+  justify-content: center;
+}

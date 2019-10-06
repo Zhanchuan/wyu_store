@@ -1,0 +1,63 @@
+/* pages/profile/profile.wxss */
+/* .profile {
+  height: 100%;
+  /* background: #f8f8f8; */
+/* pages/profile/childCpns/w-header/w-header.wxss */
+.header {
+  position: relative;
+  display: flex;
+  background: #ff5777;
+  height: 170rpx;
+  padding: 12rpx 30rpx;
+  color: #fff;
+}
+
+.avatar image {
+  width: 140rpx;
+  height: 140rpx;
+  border-radius: 70rpx;
+  background: #f2f2f2;
+  vertical-align: middle;
+}
+
+.login-info {
+  vertical-align: middle;
+  margin-left: 30rpx;
+  /* margin-top:20rpx */
+}
+
+.login-info .login {
+  font-size: 36rpx;
+  margin-top: 20rpx;
+}
+
+.login-info .phone {
+  font-size: 28rpx;
+  margin-top: 10rpx;
+}
+.login-info > button{
+  background: green;
+  margin-top: 30rpx;
+  margin-left: 40rpx 
+}
+.phone image {
+  width: 36rpx;
+  height: 36rpx;
+  vertical-align: middle;
+  position: relative;
+  bottom: 4rpx;
+}
+.uname{
+  font-size: 50rpx
+}
+.ucity{
+  font-size: 30rpx;
+  /* position: relative;
+  display: flex;
+  left: 40% */
+}
+.ucountry{
+  font-size: 30rpx;
+   display: flex;
+   position: relative;
+}
